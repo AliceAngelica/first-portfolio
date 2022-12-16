@@ -7,6 +7,47 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background: rgb(255, 239, 186);
+  background: linear-gradient(68deg, rgba(255, 239, 186, 0.8982186624649859) 16%, rgba(255, 255, 255, 1) 100%);
+}
+
+/* Header and nav*/
+
+header {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+
+h1 {
+  border: 1px solid black;
+  text-align: left;
+}
+
+.logo {
+  font-family: 'Nanum Pen Script', cursive;
+  color: rgb(182, 215, 185);
+  font-size: 40px;
+  font-weight: 700;
+
+}
+
+nav {
+  border: 1px solid black;
+
+}
+
+
+ul {
+
+  border: 1px solid black;
+}
+
+li {
+  border: 1px solid black;
 }
 
 h1,

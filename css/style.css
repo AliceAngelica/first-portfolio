@@ -8,7 +8,7 @@ body {
   font-family: 'Nanum Pen Script', cursive;
   line-height: 1.5;
   background: rgb(255, 239, 186);
-  background: linear-gradient(68deg, #E4E3E1 16%, #F4F2F5 100%);
+  background: linear-gradient(68deg, #041926 16%, #27373F 100%);
 }
 
 :root {
@@ -39,7 +39,8 @@ header {
   flex-direction: row;
   justify-content: space-between;
   background-color: var(--background);
-  background-image: url("../images/pinkstripes.jpeg");
+  background-image: url("../images/tartan3.jpg");
+  background-repeat: repeat-x, repeat-y;
 
 }
 
@@ -47,7 +48,6 @@ header {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  border: 2px solid black;
   margin: 30px;
   padding: 33px;
   width: 2000px;
@@ -56,7 +56,6 @@ header {
 }
 
 h1 {
-  border: 1px solid black;
   text-align: left;
 }
 
@@ -113,9 +112,9 @@ section .banner {
   margin: 10px;
   width: 660px;
   position: absolute;
-  color: maroon;
+  color: black;
   font-weight: bold;
-  text-decoration: 5px maroon overline;
+  text-decoration: 10px maroon overline;
   text-transform: capitalize;
   left: 300px;
   top: 260px;
@@ -126,7 +125,7 @@ section .banner {
 .banner-image {
   width: auto;
   height: 1000px;
-  background-image: url("../images/mac.jpg");
+  background-image: url("../images/laptop3.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

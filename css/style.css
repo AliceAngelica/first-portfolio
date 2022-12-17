@@ -5,50 +5,18 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Nanum Pen Script', cursive;
   line-height: 1.5;
   background: rgb(255, 239, 186);
-  background: linear-gradient(68deg, rgba(255, 239, 186, 0.8982186624649859) 16%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(68deg, #E4E3E1 16%, #F4F2F5 100%);
 }
 
-/* Header and nav*/
-
-header {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-
+:root {
+  --paleGreen: rgb(182, 215, 185);
+  --background: rgb(255, 239, 186);
 }
 
-h1 {
-  border: 1px solid black;
-  text-align: left;
-}
-
-.logo {
-  font-family: 'Nanum Pen Script', cursive;
-  color: rgb(182, 215, 185);
-  font-size: 40px;
-  font-weight: 700;
-
-}
-
-nav {
-  border: 1px solid black;
-
-}
-
-
-ul {
-
-  border: 1px solid black;
-}
-
-li {
-  border: 1px solid black;
-}
+/* css other  */
 
 h1,
 h2,
@@ -61,4 +29,107 @@ h6 {
 
 p {
   margin: 0;
+}
+
+/* Header and nav*/
+
+header {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--background);
+  background-image: url("../images/pinkstripes.jpeg");
+
+}
+
+.banner-top {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  border: 2px solid black;
+  margin: 30px;
+  padding: 33px;
+  width: 2000px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+h1 {
+  border: 1px solid black;
+  text-align: left;
+}
+
+.logo {
+  font-family: 'Nanum Pen Script', cursive;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 20px;
+
+
+}
+
+nav {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+
+}
+
+nav li {
+  display: inline-block;
+  margin: 20px 10px 20px 10px;
+  border: 1px solid black;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+}
+
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+
+}
+
+ul {
+  border: 1px solid black;
+}
+
+/* banner section */
+
+section .banner {
+  display: flex;
+  background-color: black;
+  position: relative;
+
+}
+
+.banner h2 {
+  font-size: 58px;
+  letter-spacing: 0.5px;
+  border: 2px solid black;
+  padding: 25px;
+  margin: 10px;
+  width: 660px;
+  position: absolute;
+  color: maroon;
+  font-weight: bold;
+  text-decoration: 5px maroon overline;
+  text-transform: capitalize;
+  left: 300px;
+  top: 260px;
+
+
+}
+
+.banner-image {
+  width: auto;
+  height: 1000px;
+  background-image: url("../images/mac.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid black;
+
 }

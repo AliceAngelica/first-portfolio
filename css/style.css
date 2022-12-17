@@ -41,6 +41,8 @@ header {
   background-color: var(--background);
   background-image: url("../images/tartan3.jpg");
   background-repeat: repeat-x, repeat-y;
+  border-bottom: 5px dashed black;
+  border-top: 5px solid black;
 
 }
 
@@ -51,8 +53,8 @@ header {
   margin: 30px;
   padding: 33px;
   width: 2000px;
-  background-color: black;
-  border-radius: 5px;
+  background: linear-gradient(68deg, #000000 16%, #1c2225 100%);
+  border-radius: 7px;
 }
 
 h1 {
@@ -62,10 +64,15 @@ h1 {
 .logo {
   font-family: 'Nanum Pen Script', cursive;
   color: white;
+  text-decoration: 10px solid maroon underline;
   font-size: 40px;
   font-weight: 700;
   padding: 20px;
 
+}
+
+.logo:hover {
+  text-decoration: 10px solid maroon overline underline;
 
 }
 
@@ -91,6 +98,11 @@ nav a {
 
 }
 
+nav a:hover {
+  text-decoration: 10px solid maroon underline;
+
+}
+
 ul {
   border: 1px solid black;
 }
@@ -112,13 +124,20 @@ section .banner {
   margin: 10px;
   width: 660px;
   position: absolute;
-  color: black;
+  color: white;
   font-weight: bold;
   text-decoration: 10px maroon overline;
   text-transform: capitalize;
   left: 300px;
-  top: 260px;
+  top: 400px;
+  background-color: rgb(4, 4, 4, 0.7);
+  border-radius: 15px;
 
+}
+
+.banner h2:hover {
+  transform: translate(-0.25px, 12px);
+  transition: ease-in-out 1s;
 
 }
 
@@ -126,9 +145,12 @@ section .banner {
   width: auto;
   height: 1000px;
   background-image: url("../images/laptop3.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid black;
 
+
 }
+
+/* About me */

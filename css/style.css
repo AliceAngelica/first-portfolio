@@ -154,3 +154,59 @@ section .banner {
 }
 
 /* About me */
+.about-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.about-me h2 {
+  font-size: 40px;
+  border: 2px solid white;
+  text-align: center;
+  width: 100%;
+  color: white;
+  text-decoration: 5px solid maroon overline;
+
+}
+
+.aboutme-container {
+  width:
+
+}
+
+.p-about {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 25px;
+  width: 580px;
+  height: 700px;
+  overflow: scroll;
+}
+
+.p-about::first-line {
+  color: maroon;
+}
+
+.p-about::first-letter {
+  text-transform: capitalize;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#my-photo {
+  background-image: url("../images/meandshadow.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 500px;
+  height: 700px;
+  display: block;
+  border-right: 4px solid white;
+  border-bottom: 8px solid white;
+  border-radius: 3px;
+
+}
+
+.p-about {}

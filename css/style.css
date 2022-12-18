@@ -177,7 +177,7 @@ section .banner {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   font-size: 25px;
-  width: 580px;
+  width: 500px;
   height: 700px;
   overflow: scroll;
   border-radius: 5px;
@@ -191,6 +191,12 @@ section .banner {
   text-transform: capitalize;
   font-size: 32px;
   font-weight: bold;
+}
+
+#p-about {
+  margin-top: 15px;
+  width: 1250px;
+  height: 300px;
 }
 
 #my-photo {
@@ -212,26 +218,29 @@ section .banner {
 }
 
 /* Portfolio container */
+
+#work {}
+
 .work-container {
   margin-top: 25px;
   padding: 50px;
   border: 2px solid white;
-  height: 4000px;
+  height: 5000px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items:
+  align-items: center;
 
 }
 
 .work-container h2 {
-  padding: 50px;
+  padding: 30px;
   border: 2px solid white;
   display: inline-block;
   text-align: center;
-  font-size: 40px;
+  font-size: 55px;
   color: white;
-  text-decoration: 5px solid navy underline;
+  text-decoration: 5px solid maroon overline;
   position: relative;
 }
 
@@ -250,9 +259,9 @@ section .banner {
   padding: 10px;
   border: 2px solid white;
   text-align: center;
-  font-size: 25px;
+  font-size: 40px;
   color: white;
-  text-decoration: 2.5px solid navy underline;
+  text-decoration: 4px solid maroon underline;
 
 }
 
@@ -263,12 +272,40 @@ section .banner {
 
 }
 
-.work-container div:nth-of-type(1):hover {
-  translate: 570px;
-  width: 600px;
+#project1 {
+  width: 500px;
+  height: 700px;
+  display: block;
+
+}
+
+#project1:hover {
+  translate: -35px;
+  width: 550px;
   height: 800px;
   transition: all 2s ease-in-out;
 
+}
+
+.work-container div:nth-of-type(1) {
+  background-image: url("../images/work2.jpg");
+  background-position: center;
+  background-size: cover;
+  align-self: flex-start;
+}
+
+.work-container div:nth-of-type(2) {
+  background-image: url("../images/work3.jpg");
+  background-position: center;
+  background-size: cover;
+  align-self: flex-start;
+}
+
+.work-container div:nth-of-type(3) {
+  background-image: url("../images/work4.jpg");
+  background-position: center;
+  background-size: cover;
+  align-self: flex-start;
 }
 
 .projects:hover {
@@ -277,37 +314,11 @@ section .banner {
   transition: all 2s ease-in-out;
   width: 650px;
   height: 500px;
-  translate: 550px;
-}
-
-.work-container div:nth-of-type(1) {
-  background-image: url("../images/work1.png");
-  background-position: center;
-  background-size: cover;
-  width: 400px;
-  height: 600px;
-}
-
-.work-container div:nth-of-type(2) {
-  background-image: url("../images/work2.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
-.work-container div:nth-of-type(3) {
-  background-image: url("../images/work3.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
-.work-container div:nth-of-type(4) {
-  background-image: url("../images/work4.jpg");
-  background-position: center;
-  background-size: cover;
+  translate: 380px;
 }
 
 .work-p {
-  border: 1px solid white;
+  border-bottom: 5px solid maroon;
   color: white;
   padding: 15px;
   font-size: 30px;
@@ -328,9 +339,27 @@ footer {
 
 }
 
-footer ul li {
-  display: inline-block;
+footer h2 {
+  text-decoration: 4px underline maroon;
+}
+
+strong {
+  color: maroon;
+}
+
+footer p {
   text-decoration: none;
   margin: 10px;
   padding: 10px;
+  color: black;
+  font-size: 20px;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: 3px maroon underline;
+  color: black;
 }

@@ -411,6 +411,7 @@ footer a {
   /* headings and fonts resized  */
   .work-container h2 {
     font-size: 25px;
+    text-decoration: 5px var(--burgundy) overline;
   }
 
   .work-container h3 {
@@ -462,14 +463,14 @@ removed and replaced with opacity hover effect */
   /* reorganised content in footer  */
   footer {
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: flex-start;
     padding: 1px 1px;
     margin: 0;
   }
 
   footer p {
-    align-self: center;
+    align-self: flex-start;
   }
 
 }

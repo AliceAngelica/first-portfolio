@@ -177,6 +177,11 @@ nav a:hover {
   font-weight: bold;
 }
 
+/* The CV/p section was set to sit horizontally below my photo  */
+#cv {
+  width: 80%;
+}
+
 /* My photograph in about me section */
 #my-photo {
   background-image: url("../images/meandshadow.jpeg");
@@ -195,6 +200,8 @@ to let it move slower */
   transform: translate(-0.25px, 3px);
   transition: all 1s;
 }
+
+
 
 /* Portfolio container */
 .work-container {
@@ -259,7 +266,7 @@ ment look smoother. */
   transition: all 2s ease-in-out;
   width: 650px;
   height: 500px;
-  translate: 490px;
+  translate: 400px;
   cursor: pointer;
 }
 
